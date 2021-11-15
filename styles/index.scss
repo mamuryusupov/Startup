@@ -1,0 +1,49 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+@import 'common.scss';
+@import 'about.scss';
+@import 'clients.scss';
+@import 'communication.scss';
+@import 'features.scss';
+@import 'feedback.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'inbox.scss';
+@import 'tips.scss';
+@import 'users.scss';
+@import 'order.scss';
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: #2b292d;
+}
+
+/*Page container*/
+
+.page {
+  width: 100%;
+  // overflow-x: hidden;
+  @include for-large-up {
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// @media screen and (min-width: 400px) {
+//   .page {
+//     width: 1400px;
+//     margin: auto;
+//     min-height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//   }
+// }

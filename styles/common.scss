@@ -1,0 +1,33 @@
+.action-button {
+  background-color: #3040c4;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.learn-button {
+  background-color: #fff;
+  color: #3040c4;
+  width: 160px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hide_desktop {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.hide_mobile {
+  @include for-large-down {
+    display: none;
+  }
+}
