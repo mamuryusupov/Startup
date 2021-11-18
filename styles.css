@@ -789,6 +789,7 @@
   }
 }
 .headline__title {
+  margin: 0;
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
@@ -1074,6 +1075,11 @@
   flex-direction: column;
   padding: 50px 15px 50px 15px;
 }
+@media screen and (min-width: 1400px) {
+  .audience__content {
+    padding: 108px 15px 110px 15px;
+  }
+}
 .audience__subtitle {
   text-align: center;
   margin: 0;
@@ -1293,6 +1299,10 @@
 }
 .order__terms-link {
   color: #3142c6;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
