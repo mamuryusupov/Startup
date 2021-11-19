@@ -13,9 +13,9 @@
     padding: 50px 15px;
 
     @include for-large-up {
-      padding: 0;
       display: flex;
       flex-direction: row;
+      padding: 0;
     }
   }
   /* Banner section */
@@ -37,23 +37,24 @@
     display: none;
     @include for-large-up {
       display: block;
+      margin-top: 15px;
+      text-align: center;
       font-size: 14px;
       line-height: 22px;
-      text-align: center;
       color: rgba(43, 41, 45, 0.6);
-      margin-top: 15px;
     }
   }
 
   /* Header section */
 
   &__subtitle {
+    margin-top: 32px;
+    margin-bottom: 17px;
     font-weight: bold;
     font-size: 22px;
     line-height: 34px;
     color: #f1592b;
-    margin-top: 32px;
-    margin-bottom: 17px;
+
     @include for-large-up {
       margin: 0;
       margin-left: 192px;
@@ -66,19 +67,20 @@
     line-height: 40px;
     letter-spacing: -0.357143px;
     @include for-large-up {
+      width: 462px;
+      margin: 24px 0 30px 190px;
       font-size: 56px;
       line-height: 56px;
       letter-spacing: -0.5px;
-      width: 462px;
-      margin: 24px 0 30px 190px;
     }
   }
 
   &__description {
-    font-size: 24px;
-    line-height: 34px;
     margin-top: 18px;
     margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 34px;
+
     @include for-large-up {
       width: 461px;
       margin: 0 0 44px 192px;
@@ -106,6 +108,7 @@
   }
 
   &__comment {
+    margin-top: 0;
     font-size: 20px;
     line-height: 28px;
   }
@@ -120,16 +123,15 @@
   &__user-avatar {
     width: 40px;
     height: 40px;
-    /* border-radius: 100%; */
     margin-right: 11px;
   }
 
   &__user-name {
+    margin-bottom: 0;
+    margin-top: 0;
     font-weight: bold;
     font-size: 16px;
     line-height: 22px;
-    margin-bottom: 0;
-    margin-top: 0;
   }
 
   &__user-job {
@@ -137,7 +139,4 @@
     line-height: 22px;
     color: #2b292d80;
   }
-}
-
-@media screen and (min-width: 400px) {
 }

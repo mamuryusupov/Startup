@@ -10,18 +10,23 @@
       padding: 108px 15px 110px 15px;
     }
   }
-
+  &__text {
+    @include for-large-up {
+      width: 555px;
+      margin: auto;
+    }
+  }
   &__subtitle {
-    text-align: center;
     margin: 0;
+    text-align: center;
+    line-height: 34px;
     font-weight: 700;
     font-size: 22px;
-    line-height: 34px;
   }
 
   &__title {
-    text-align: center;
     margin: 17px 0 18px 0;
+    text-align: center;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.36px;
@@ -31,8 +36,8 @@
   }
 
   &__description {
-    text-align: center;
     margin: 0;
+    text-align: center;
     line-height: 34px;
     font-size: 24px;
   }
@@ -52,13 +57,6 @@
   }
   &__start-btn {
     width: 100%;
-    height: 48px;
-    border-radius: 2px;
-    border: none;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: #3040c4;
-    color: #fff;
 
     @include for-large-up {
       width: 160px;
@@ -67,14 +65,7 @@
   }
   &__learn-btn {
     width: 100%;
-    height: 48px;
     margin-top: 12px;
-    border-radius: 2px;
-    border: none;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: #fff;
-    color: #3040c4;
 
     @include for-large-up {
       width: 158px;
@@ -105,9 +96,9 @@
     cursor: pointer;
 
     @include for-large-up {
+      width: 262px;
       margin-right: 15px;
       margin-bottom: 0;
-      width: 262px;
     }
     &_selected {
       background-color: #3141c5;
@@ -129,12 +120,6 @@
 
     &_selected {
       color: white;
-    }
-  }
-  &__text {
-    @include for-large-up {
-      width: 555px;
-      margin: auto;
     }
   }
 }

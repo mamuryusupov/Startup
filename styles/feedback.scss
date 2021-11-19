@@ -6,11 +6,12 @@
   border-bottom: 1px solid #e3e3e3;
 
   &__content {
-    padding: 39px 15px 0 15px;
     display: flex;
     flex-direction: column;
     align-items: left;
     position: relative;
+    padding: 39px 15px 0 15px;
+
     @include for-large-up {
       align-items: center;
     }
@@ -24,9 +25,9 @@
     color: #3142c6;
   }
   &__description {
+    margin: 29px 0 32px;
     font-size: 24px;
     line-height: 34px;
-    margin: 29px 0 32px;
 
     @include for-large-up {
       width: 750px;
@@ -41,10 +42,10 @@
   }
 
   &__user-name {
+    margin: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    margin: 0;
   }
 
   &__user-job {
@@ -64,9 +65,9 @@
   &__swipe-dot {
     height: 12px;
     width: 12px;
+    margin-right: 19.5px;
     border-radius: 50%;
     background-color: #2b292d33;
-    margin-right: 19.5px;
 
     &_selected {
       background-color: #3142c5;

@@ -31,22 +31,11 @@ html {
 
 .page {
   width: 100%;
-  // overflow-x: hidden;
   @include for-large-up {
-    max-width: 1400px;
-    margin: auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: auto;
   }
 }
-
-// @media screen and (min-width: 400px) {
-//   .page {
-//     width: 1400px;
-//     margin: auto;
-//     min-height: 100vh;
-//     display: flex;
-//     flex-direction: column;
-//   }
-// }
