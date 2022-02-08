@@ -1,10 +1,10 @@
 /* Top section*/
 
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $background-color-light-pink;
 
   @include for-large-up {
-    background-color: #f3c6bd;
+    background-color: $background-color-light-pink;
     padding-top: 39px;
   }
 }
@@ -16,12 +16,12 @@
   height: 64px;
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: $background-color-white;
 
   @include for-large-up {
     width: 1140px;
     margin: auto;
-    background-color: #f3c6bd;
+    background-color: $background-color-light-pink;
   }
   &__button {
     display: none;
@@ -67,7 +67,7 @@
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;
-    color: #2b292d;
+    color: $color-dark;
 
     &_selected {
       font-weight: 700;
@@ -80,7 +80,7 @@
     height: 5px;
     width: 8px;
     display: inline-block;
-    background-image: url(../img/arrow.png);
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
     margin-left: 11px;
   }
 }
@@ -102,7 +102,7 @@
       display: block;
       font-size: 18px;
       line-height: 25px;
-      color: #2b292d;
+      color: $color-dark;
       opacity: 0.6;
       font-weight: bold;
     }

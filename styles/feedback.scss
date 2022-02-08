@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid $border-color-light-grey;
 
   &__content {
     display: flex;
@@ -22,7 +22,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-    color: #3142c6;
+    color: $text-color-blue;
   }
   &__description {
     margin: 29px 0 32px;
