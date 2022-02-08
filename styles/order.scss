@@ -1,22 +1,19 @@
 .order {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
   padding: 50px 15px;
   background-color: $background-color-light;
 
   @include for-large-up {
     display: flex;
-    // flex-direction: row;
-    // justify-content: center;
+    flex-direction: row;
+    justify-content: center;
     align-items: flex-start;
     padding: 73px 0 72px 0;
   }
 
   &__illustration {
     max-width: 200px;
+    display: flex;
+    margin: auto;
 
     @include for-large-up {
       max-width: 269px;
@@ -27,8 +24,12 @@
   &__details {
     display: flex;
     flex-direction: column;
+    align-self: center;
     margin: auto;
     max-width: 555px;
+    @include for-large-up {
+      margin: 0;
+    }
   }
 
   &__title {

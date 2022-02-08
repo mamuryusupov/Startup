@@ -1,3 +1,19 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+@import 'common.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'communication.scss';
+@import 'features.scss';
+@import 'feedback.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'inbox.scss';
+@import 'tips.scss';
+@import 'audience.scss';
+@import 'order.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -23,19 +39,3 @@ html {
     margin: auto;
   }
 }
-
-@import 'breakpoints.scss';
-@import 'variables.scss';
-@import 'common.scss';
-@import 'about.scss';
-@import 'customers.scss';
-@import 'communication.scss';
-@import 'features.scss';
-@import 'feedback.scss';
-@import 'footer.scss';
-@import 'header.scss';
-@import 'headline.scss';
-@import 'inbox.scss';
-@import 'tips.scss';
-@import 'audience.scss';
-@import 'order.scss';

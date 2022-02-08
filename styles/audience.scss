@@ -118,7 +118,7 @@
     font-size: 22px;
     color: $color-dark;
 
-    &_selected {
+    &_selected:hover {
       color: $background-color-white;
     }
   }

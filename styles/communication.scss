@@ -78,6 +78,7 @@
     max-width: 100%;
     height: auto;
     display: block;
+    margin: auto;
 
     @include for-large-up {
       width: 425px;
@@ -89,6 +90,7 @@
     line-height: 22px;
     text-align: center;
     color: $text-color-light-grey;
+    display: block;
     @include for-large-up {
       margin-top: 15px;
     }
