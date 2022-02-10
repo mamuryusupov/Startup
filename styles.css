@@ -1152,7 +1152,6 @@
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  cursor: pointer;
 }
 @media screen and (min-width: 1400px) {
   .audience__card {
@@ -1161,11 +1160,12 @@
     margin-bottom: 0;
   }
 }
-.audience__card_selected {
-  background-color: #3141c5;
-}
 .audience__card:last-child {
   margin-bottom: 0;
+}
+.audience__card:hover {
+  background-color: #3141c5;
+  cursor: pointer;
 }
 .audience__card-title {
   width: 100%;
@@ -1178,7 +1178,7 @@
   font-size: 22px;
   color: #2b292d;
 }
-.audience__card-title_selected:hover {
+.audience__card-title:hover {
   color: #ffffff;
 }
 
